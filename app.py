@@ -44,5 +44,5 @@ if uploaded_files is not None:
         st.markdown(
             f'<p class="icon">{prediction}</p>', unsafe_allow_html=True)
         st.subheader("Image")
-        st.image(images[i].transpose(Image.ROTATE_180), use_column_width=True,caption=f"Image {i+1}", clamp=True, output_format="JPEG")
+        st.image(images[i], use_column_width=True,caption=f"Image {i+1}", clamp=True, output_format="JPEG")
         
