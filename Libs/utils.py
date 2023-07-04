@@ -16,7 +16,6 @@ def get_key_from_value(dictionary, value):
 def predict_image(img, model = model, label_dict = label_dict):
     img = img.resize((480,480)) # Resizing the image before prediction
     image_prnu = torch.tensor(np.array(get_PRNU(img)))
-    print(image_prnu.size())
     prediction = model(image_prnu)
     _, predicted = torch.max(prediction, 1)
     return get_key_from_value(label_dict,predicted.item())
