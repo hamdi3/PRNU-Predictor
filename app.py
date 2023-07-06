@@ -25,7 +25,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Display the StreamSign title
+# Display the title
 st.markdown('<div class="header"><h1 class="title">PRNU Predictor</h1></div>', unsafe_allow_html=True)
 
 # Upload an image
@@ -36,7 +36,7 @@ uploaded_files = st.file_uploader(
 if uploaded_files is not None:
     images = [Image.open(file) for file in uploaded_files]
 
-    # Display the letter predictions for each image
+    # Display the Device predictions for each image
     st.subheader("Predicted Devices and Images")
     for i in range(len(images)):
         prediction = predict_image(images[i])
