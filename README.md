@@ -113,8 +113,7 @@ I would like to express my gratitude to the researchers at the Politecnico di Mi
 
 If you have any questions, suggestions, or feedback, please feel free to contact me:
 
-- Your Name
-  - GitHub: [github.com/hamdi3](https://github.com/hamdi3)
+- GitHub: [github.com/hamdi3](https://github.com/hamdi3)
 
 I'm open to collaboration and look forward to hearing from you!
 
