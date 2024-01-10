@@ -39,7 +39,7 @@ To get started with the PRNU Predictor, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/prnu-predictor.git
+   git clone https://github.com/hamdi3/prnu-predictor.git
    ```
 
 2. Install the required dependencies. We recommend using a virtual environment:
@@ -103,7 +103,7 @@ Contributions are welcome and greatly appreciated! To contribute to the PRNU Pre
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/your-username/prnu-predictor/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/hamdi3/prnu-predictor/blob/main/LICENSE) file for more details.
 
 ## Acknowledgments
 
